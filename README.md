@@ -6,3 +6,5 @@ I have created a number of ways to authorize an account to the API.
 
 * [Use the Chrome extension (easiest way)](https://chrome.google.com/webstore/detail/onhub-authorization-helpe/ecgfhpjmkenogpckhiimbnkkmjgmdnkp)
 * [Use the web-based tool](https://angelod.com/onhubauthtool)
+
+Once a refresh token has been obtained, paste it into `config.json` under the value for `refreshToken`.
