@@ -80,6 +80,6 @@ if __name__ == '__main__':
     results = wlanSpeedTestResults(apitoken, systemId, 1)[0]
 
     print("Test complete!")
-    
+
     print("Upload bits/second: " + results["transmitWanSpeedBps"])
     print("Download bits/second: " + results["receiveWanSpeedBps"])
